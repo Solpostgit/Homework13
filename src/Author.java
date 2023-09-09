@@ -14,4 +14,8 @@ public class Author {
     public String getSurname() {
         return this.surname;
     }
+
+    public String toString() {
+        return "Имя " + this.name + " Фамилия " + this.surname;
+    }
 }
